@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+:root{--f:'Poppins',sans-serif;--m:'IBM Plex Mono',monospace;--bg:#0f1117;--c1:#161821;--c2:#1c1e2a;--c3:#222533;--b1:#2a2d3a;--b2:#383c4d;--t:#f0f1f5;--t2:#c0c3d0;--t3:#8a8ea0;--t4:#5a5e72;--g:#00d47b;--r:#ff4747;--y:#f5a623}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body,#__next{height:100%;background:var(--bg);color:var(--t);font-family:var(--f);-webkit-font-smoothing:antialiased;overflow:hidden}
+::selection{background:rgba(255,255,255,.12)}
+::-webkit-scrollbar{width:5px;height:5px}::-webkit-scrollbar-track{background:transparent}::-webkit-scrollbar-thumb{background:#383c4d;border-radius:4px}::-webkit-scrollbar-thumb:hover{background:#4a4f63}
+input,select,textarea,button{font-family:inherit}input::placeholder,textarea::placeholder{color:#5a5e72!important}select option{background:#1c1e2a;color:#f0f1f5}
+input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}input[type=number]{-moz-appearance:textfield;appearance:textfield}
+@keyframes fadeUp{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+@keyframes scaleIn{from{opacity:0;transform:scale(.97)}to{opacity:1;transform:scale(1)}}
+@keyframes slideR{from{opacity:0;transform:translateX(12px)}to{opacity:1;transform:translateX(0)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes pulse{0%,100%{opacity:.2}50%{opacity:.8}}
